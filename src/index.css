@@ -50,10 +50,9 @@
     font-optical-sizing: auto;
     font-family: 'Jost', 'Franklin Gothic Medium', 'Arial Narrow', Arial,
       sans-serif;
-    font-size: 1rem;
+    font-size: 1.1rem;
     font-weight: 300;
     background-color: rgb(249 250 251);
-    color: rgb(0 0 0);
   }
 
   /* Set shorter line heights on headings and interactive elements */
