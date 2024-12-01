@@ -1,10 +1,7 @@
-import PageNav from '@/components/PageNav';
-
 const Locations = () => {
   return (
     <div>
-      <PageNav />
-      <h1>map</h1>
+      <h1>location</h1>
     </div>
   );
 };

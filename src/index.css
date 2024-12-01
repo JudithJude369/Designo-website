@@ -50,6 +50,7 @@
     font-optical-sizing: auto;
     font-family: 'Jost', 'Franklin Gothic Medium', 'Arial Narrow', Arial,
       sans-serif;
+    font-size: 1rem;
     font-weight: 300;
     background-color: rgb(249 250 251);
     color: rgb(0 0 0);
@@ -107,11 +108,11 @@
   }
 
   /* Content Styles */
-  .container {
+  /* .container {
     margin: 0 auto;
   }
 
   .hero {
     padding: 2em 0;
-  }
+  } */
 }
