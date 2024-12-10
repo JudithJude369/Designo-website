@@ -106,11 +106,17 @@
     scroll-margin-block: 5ex;
   }
 
-  .hamburger {
-    top: 12%;
+  .hamburger,
+  .closeBtn {
+    top: 34%;
     left: 90%;
   }
 
+  .navBar {
+    top: 40%;
+    right: 0;
+    left: 0;
+  }
   /* Content Styles */
   /* .container {
     margin: 0 auto;
