@@ -10,11 +10,17 @@ import Contact from '@/pages/Contact';
 import Home from '@/pages/Home';
 import PageNotFound from '@/pages/PageNotFound';
 import AppLayout from '@/layout/AppLayout';
+import AppDesign from '@/pages/AppDesign';
+import GraphicDesign from '@/pages/GraphicDesign';
+import WebDesign from '@/pages/WebDesign';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<AppLayout />}>
       <Route index element={<Home />} />
+      <Route path="/appdesign" element={<AppDesign />} />
+      <Route path="/graphicdesign" element={<GraphicDesign />} />
+      <Route path="/webdesign" element={<WebDesign />} />
       <Route path="/about" element={<About />} />
       <Route path="/locations" element={<Locations />} />
       <Route path="/contact" element={<Contact />} />
@@ -24,9 +30,9 @@ const router = createBrowserRouter(
 );
 const App = () => {
   return (
-    <div>
+    <main>
       <RouterProvider router={router} />
-    </div>
+    </main>
   );
 };
 

@@ -49,16 +49,16 @@ const Navbar = () => {
       {isOpen ? (
         <img
           onClick={toggleHandler}
-          src={hamburger}
-          alt="hamburger-menu"
-          className="lg:hidden absolute hamburger"
+          src={closeBtn}
+          alt="close-btn"
+          className="lg:hidden absolute closeBtn"
         />
       ) : (
         <img
           onClick={toggleHandler}
-          src={closeBtn}
-          alt="close-btn"
-          className="lg:hidden absolute closeBtn"
+          src={hamburger}
+          alt="hamburger-menu"
+          className="lg:hidden absolute hamburger"
         />
       )}
     </div>

@@ -117,12 +117,12 @@
     right: 0;
     left: 0;
   }
-  /* Content Styles */
-  /* .container {
-    margin: 0 auto;
-  }
 
-  .hero {
-    padding: 2em 0;
-  } */
+  @media (min-width: 1024px) {
+    .bg-img {
+      background-image: url(assets/home/desktop/bg-pattern-hero-home.svg);
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+  }
 }
