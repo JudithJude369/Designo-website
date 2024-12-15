@@ -50,7 +50,7 @@
     font-optical-sizing: auto;
     font-family: 'Jost', 'Franklin Gothic Medium', 'Arial Narrow', Arial,
       sans-serif;
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     font-weight: 300;
     background-color: rgb(249, 250, 251);
   }
@@ -118,13 +118,13 @@
     left: 0;
   }
 
-  .top {
-    margin-top: -4em;
+  .phone-img {
+    margin-top: -0.03em;
   }
 
   @media (min-width: 768px) {
-    .top {
-      margin-top: -8em;
+    .phone-img {
+      margin-top: -5em;
     }
   }
 
@@ -135,7 +135,7 @@
       background-repeat: no-repeat;
     }
 
-    .top {
+    .phone-img {
       margin-top: -8em;
     }
   }
