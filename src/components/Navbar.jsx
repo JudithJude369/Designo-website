@@ -17,7 +17,7 @@ const Navbar = () => {
       <nav className=" text-2xl lg:flex justify-between px-0 py-8 lg:px-16 lg:text-xl font-medium w-full lg:text-center ">
         <Logo />
         {/* desktop navigation */}
-        <ul className=" space-y-4 lg:flex lg:space-x-14 lg:items-centre lg:mt-0  lg:text-gray-600 lg:bg-gray-50 lg:p-0 hidden">
+        <ul className=" space-y-4 lg:flex lg:space-x-14 lg:items-centre lg:mt-0  lg:text-gray-600 lg:bg-white lg:p-0 hidden">
           <li className="lg:hover:underline transition-all ease-in-out   lg:pt-4">
             <NavLink to="/about">Our Company</NavLink>
           </li>
@@ -32,16 +32,31 @@ const Navbar = () => {
           <ul
             // mobile navigation
             className="px-12 py-10 mt-10
-           bg-black text-white space-y-4  absolute  z-10 lg:hidden navBar"
+           bg-black text-white space-y-4 absolute  z-10 lg:hidden navBar"
           >
-            <li className=" transition-all ease-in-out   lg:pt-4">
-              <NavLink to="/about">Our Company</NavLink>
+            <li className=" transition-all ease-in-out">
+              <NavLink
+                to="/about"
+                className=" hover:bg-gray-300/50 focus:bg-gray-300/50"
+              >
+                Our Company
+              </NavLink>
             </li>
             <li className=" transition-all ease-in-out">
-              <NavLink to="/locations">Locations</NavLink>
+              <NavLink
+                to="/locations"
+                className=" hover:bg-gray-300/50 focus:bg-gray-300/50"
+              >
+                Locations
+              </NavLink>
             </li>
             <li className=" transition-all ease-in-out">
-              <NavLink to="/contact">Contact</NavLink>
+              <NavLink
+                to="/contact"
+                className=" hover:bg-gray-300/50 focus:bg-gray-300/50"
+              >
+                Contact
+              </NavLink>
             </li>
           </ul>
         )}

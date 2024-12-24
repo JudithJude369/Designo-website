@@ -52,7 +52,7 @@
       sans-serif;
     font-size: 1.3rem;
     font-weight: 300;
-    background-color: rgb(249, 250, 251);
+    background-color: lighter-grey;
   }
 
   /* Set shorter line heights on headings and interactive elements */
@@ -119,8 +119,18 @@
   }
 
   .phone-img {
-    margin-top: -0.03em;
+    margin-top: -2em;
   }
+
+  .cardWeb-bg {
+    background-image: url(assets/home/mobile/image-web-design.jpg);
+    background-size: cover;
+  }
+
+  /* .cardapp-bg {
+  }
+  .cardgraphic-bg {
+  } */
 
   @media (min-width: 768px) {
     .phone-img {
@@ -129,7 +139,14 @@
   }
 
   @media (min-width: 1024px) {
-    .bg-img {
+    .home_bg-img {
+      background-image: url(assets/shared/desktop/bg-pattern-leaf.svg);
+      background-size: contain;
+      background-position: left;
+      background-repeat: no-repeat;
+    }
+
+    .hero_bg-img {
       background-image: url(assets/home/desktop/bg-pattern-hero-home.svg);
       background-position: right 50px;
       background-repeat: no-repeat;
