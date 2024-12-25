@@ -13,7 +13,7 @@ const Navbar = () => {
     dispatch(toggleMenu());
   };
   return (
-    <div className="relative">
+    <header className="relative">
       <nav className=" text-2xl lg:flex justify-between px-0 py-8 lg:px-16 lg:text-xl font-medium w-full lg:text-center ">
         <Logo />
         {/* desktop navigation */}
@@ -76,7 +76,7 @@ const Navbar = () => {
           className="lg:hidden absolute hamburger"
         />
       )}
-    </div>
+    </header>
   );
 };
 

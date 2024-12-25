@@ -125,16 +125,47 @@
   .cardWeb-bg {
     background-image: url(assets/home/mobile/image-web-design.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
   }
 
-  /* .cardapp-bg {
+  .cardapp-bg {
+    background-image: url(assets/home/mobile/image-app-design.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
   }
   .cardgraphic-bg {
-  } */
+    background-image: url(assets/home/mobile/image-graphic-design.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .bg-circle {
+    background-image: url(assets/shared/desktop/bg-pattern-small-circle.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
 
   @media (min-width: 768px) {
     .phone-img {
       margin-top: -5em;
+    }
+
+    .cardWeb-bg {
+      background-image: url(assets/home/tablet/image-web-design.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+    .cardapp-bg {
+      background-image: url(assets/home/tablet/image-app-design.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+    .cardgraphic-bg {
+      background-image: url(assets/home/tablet/image-graphic-design.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
     }
   }
 
@@ -142,8 +173,6 @@
     .home_bg-img {
       background-image: url(assets/shared/desktop/bg-pattern-leaf.svg);
       background-size: contain;
-      background-position: left;
-      background-repeat: no-repeat;
     }
 
     .hero_bg-img {
@@ -154,6 +183,23 @@
 
     .phone-img {
       margin-top: -8em;
+    }
+
+    .cardWeb-bg {
+      background-image: url(assets/home/desktop/image-web-design-small.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+    .cardapp-bg {
+      background-image: url(assets/home/desktop/image-app-design.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+    .cardgraphic-bg {
+      background-image: url(assets/home/desktop/image-graphic-design.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
     }
   }
 }
