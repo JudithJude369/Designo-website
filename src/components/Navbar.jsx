@@ -14,11 +14,11 @@ const Navbar = () => {
   };
   return (
     <header className="relative">
-      <nav className=" text-2xl lg:flex justify-between px-0 py-8 lg:px-16 lg:text-xl font-medium w-full lg:text-center ">
+      <nav className=" text-2xl lg:flex justify-between px-0 py-8 lg:px-16 lg:text-xl font-medium w-full lg:text-center uppercase">
         <Logo />
         {/* desktop navigation */}
-        <ul className=" space-y-4 lg:flex lg:space-x-14 lg:items-centre lg:mt-0  lg:text-gray-600 lg:bg-white lg:p-0 hidden">
-          <li className="lg:hover:underline transition-all ease-in-out   lg:pt-4">
+        <ul className=" self-center lg:flex lg:gap-6 lg:mt-0  lg:text-gray-600 lg:bg-white lg:p-0 hidden">
+          <li className="lg:hover:underline transition-all ease-in-out   text-center">
             <NavLink to="/about">Our Company</NavLink>
           </li>
           <li className="lg:hover:underline transition-all ease-in-out">
@@ -32,7 +32,7 @@ const Navbar = () => {
           <ul
             // mobile navigation
             className="px-12 py-10 mt-10
-           bg-black text-white space-y-4 absolute  z-10 lg:hidden navBar"
+           bg-black text-white  flex flex-col gap-4 absolute  z-10 lg:hidden navBar text-2xl uppercase"
           >
             <li className=" transition-all ease-in-out">
               <NavLink

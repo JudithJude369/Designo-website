@@ -145,6 +145,13 @@
     background-repeat: no-repeat;
   }
 
+  .get_card {
+    top: 97%;
+    right: 5%;
+    left: 5%;
+    z-index: 1;
+  }
+
   @media (min-width: 768px) {
     .phone-img {
       margin-top: -5em;
@@ -166,6 +173,10 @@
       background-image: url(assets/home/tablet/image-graphic-design.jpg);
       background-size: cover;
       background-repeat: no-repeat;
+    }
+
+    .get_card {
+      top: 105%;
     }
   }
 
@@ -200,6 +211,10 @@
       background-image: url(assets/home/desktop/image-graphic-design.jpg);
       background-size: cover;
       background-repeat: no-repeat;
+    }
+
+    .get_card {
+      top: 116%;
     }
   }
 }
