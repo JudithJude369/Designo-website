@@ -9,17 +9,17 @@ import GetInTouch from '@/components/GetInTouch';
 
 const Home = () => {
   return (
-    <main className="lg:px-20 lg:py-8 py-0.5 home_bg-img">
+    <main className="lg:px-20 lg:my-8 my-0.5 home_bg-img">
       <section className="bg-red-400 text-white hero_bg-img lg:px-16 text-center lg:text-left lg:pt-28  pt-12 lg:flex lg:justify-between  lg:rounded-3xl">
         <div className="lg:w-2/3">
           <h1 className="font-semibold lg:font-semibold text-3xl lg:text-4xl">
             Award-winning custom designs and digital branding solutions
           </h1>
-          <h2 className="mt-8 mb-10 md:mb-12">
+          <p className="mt-8 mb-10 md:mb-12">
             With over 10 years in the industry, we are experienced in creating
             fully responsive websites, app design, and engaging brand
             experiences. Find out more about our services.
-          </h2>
+          </p>
           <ButtonLink
             className=" cursor-pointer font-medium px-7 py-3 text-black rounded-lg bg-white  hover:bg-red-200 focus:bg-red-200 hover:text-white hover:opacity-50 transition-all ease-in-out uppercase text-sm"
             to="about"
@@ -31,12 +31,12 @@ const Home = () => {
           <img src={phone} alt="phone" className="phone-img md:mx-20" />
         </div>
       </section>
-      <section className=" lg:py-30 py-20 px-4 grid lg:grid-rows-2 lg:grid-flow-col gap-4">
+      <section className=" lg:my-30 my-20 grid lg:grid-rows-2 lg:grid-flow-col gap-4">
         <Link to="webdesign">
           <Card
             title="Web Design"
             description="View Projects"
-            className="cursor-pointer uppercase text-white cardWeb-bg px-2 py-20 rounded-xl "
+            className="cursor-pointer uppercase text-white cardWeb-bg px-2 py-20 rounded-xl"
           />
         </Link>
         <Link to="appdesign">
