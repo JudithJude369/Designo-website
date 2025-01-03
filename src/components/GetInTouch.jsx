@@ -15,8 +15,8 @@ const GetInTouch = () => {
       </div>
       <div className="lg:self-center ">
         <ButtonLink
-          className=" cursor-pointer font-medium px-7 py-3 text-black rounded-lg bg-white  hover:bg-red-200 focus:bg-red-200 hover:text-white hover:opacity-50 transition-all ease-in-out uppercase text-sm "
-          to="contact"
+          className=" cursor-pointer font-medium px-7 py-4 text-black rounded-lg bg-white  hover:bg-red-200 focus:bg-red-200 hover:text-white hover:opacity-50 transition-all ease-in-out uppercase text-sm "
+          to="/contact"
         >
           Get in touch
         </ButtonLink>

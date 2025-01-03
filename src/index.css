@@ -157,6 +157,10 @@
       margin-top: -5em;
     }
 
+    .locationTablet-img {
+      width: 100%;
+    }
+
     .cardWeb-bg {
       background-image: url(assets/home/tablet/image-web-design.jpg);
       background-size: cover;
