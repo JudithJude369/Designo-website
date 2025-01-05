@@ -152,6 +152,10 @@
     z-index: 1;
   }
 
+  .width {
+    width: 90vw;
+  }
+
   @media (min-width: 768px) {
     .phone-img {
       margin-top: -5em;
@@ -219,6 +223,10 @@
 
     .get_card {
       top: 116%;
+    }
+
+    .width {
+      width: 40vw;
     }
   }
 }

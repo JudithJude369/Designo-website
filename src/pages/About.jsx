@@ -32,7 +32,7 @@ const About = () => {
           />
         </div>
         <div className=" lg:w-1/2 px-6 lg:px-0 lg:pt-32 pt-12">
-          <h1 className="font-semibold lg:font-semibold text-3xl lg:text-4xl capitalize">
+          <h1 className="font-semibold text-3xl lg:text-4xl capitalize">
             About us
           </h1>
           <p className="mt-4 pb-8 lg:pb-0">
@@ -149,42 +149,47 @@ const About = () => {
 
       <section className="relative">
         <div className=" bg-red-100 text-black text-center lg:text-left  lg:flex lg:justify-between  lg:rounded-3xl">
-        <div>
-          <img
-            src={realDealImgmobile}
-            alt="staff-training"
-            className="block lg:hidden md:hidden"
-          />
-        </div>
-        <div>
-          <img
-            src={realDealImgtablet}
-            alt="staff-training"
-            className="hidden lg:hidden md:block md:w-screen"
-          />
-        </div>
-        <div className=" lg:w-1/2 px-8 lg:px-12 lg:pt-32 pt-12">
-          <h1 className="font-semibold lg:font-semibold text-3xl lg:text-4xl capitalize text-red-400">
-          The real deal
-          </h1>
-          <p className="mt-2 mb-4">
-          As strategic partners in our clients’ businesses, we are ready to take on any challenge as our own.
-        Solving real problems require empathy and collaboration, and we strive to bring a fresh perspective to every
-        opportunity. We make design and technology more accessible and give you tools to measure success.
-          </p>
-          <p className="mt-8 pb-12
-           ">
-            We are visual storytellers in appealing and captivating ways. By combining business and marketing strategies,
-            we inspire audiences to take action and drive real results.
-          </p>
-        </div>
-        <div>
-          <img
-            src={realDealImgDesktop}
-            alt="staff-training"
-            className="hidden lg:block"
-          />
-        </div>
+          <div>
+            <img
+              src={realDealImgmobile}
+              alt="staff-training"
+              className="block lg:hidden md:hidden"
+            />
+          </div>
+          <div>
+            <img
+              src={realDealImgtablet}
+              alt="staff-training"
+              className="hidden lg:hidden md:block md:w-screen"
+            />
+          </div>
+          <div className=" lg:w-1/2 px-8 lg:px-12 lg:pt-32 pt-12">
+            <h1 className="font-semibold lg:font-semibold text-3xl lg:text-4xl capitalize text-red-400">
+              The real deal
+            </h1>
+            <p className="mt-2 mb-4">
+              As strategic partners in our clients’ businesses, we are ready to
+              take on any challenge as our own. Solving real problems require
+              empathy and collaboration, and we strive to bring a fresh
+              perspective to every opportunity. We make design and technology
+              more accessible and give you tools to measure success.
+            </p>
+            <p
+              className="mt-8 pb-12
+           "
+            >
+              We are visual storytellers in appealing and captivating ways. By
+              combining business and marketing strategies, we inspire audiences
+              to take action and drive real results.
+            </p>
+          </div>
+          <div>
+            <img
+              src={realDealImgDesktop}
+              alt="staff-training"
+              className="hidden lg:block"
+            />
+          </div>
         </div>
         <GetInTouch />
       </section>
