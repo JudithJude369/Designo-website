@@ -228,5 +228,11 @@
     .width {
       width: 40vw;
     }
+
+    .appBg {
+      background-image: url(assets/web-design/desktop/bg-pattern-intro-web.svg);
+      background-position: center;
+      background-repeat: no-repeat;
+    }
   }
 }
