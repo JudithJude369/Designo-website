@@ -122,7 +122,7 @@
     margin-top: -2em;
   }
 
-  .cardWeb-bg {
+  /* .cardWeb-bg {
     background-image: url(assets/home/mobile/image-web-design.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -137,7 +137,7 @@
     background-image: url(assets/home/mobile/image-graphic-design.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-  }
+  } */
 
   .bg-circle {
     background-image: url(assets/shared/desktop/bg-pattern-small-circle.svg);
@@ -165,7 +165,16 @@
       width: 100%;
     }
 
-    .cardWeb-bg {
+    .card-width {
+      width: 120vw;
+      height: 30vh;
+    }
+
+    .crd-width {
+      width: 120vw;
+      height: 30vh;
+    }
+    /* .cardWeb-bg {
       background-image: url(assets/home/tablet/image-web-design.jpg);
       background-size: cover;
       background-repeat: no-repeat;
@@ -181,7 +190,7 @@
       background-image: url(assets/home/tablet/image-graphic-design.jpg);
       background-size: cover;
       background-repeat: no-repeat;
-    }
+    } */
 
     .get_card {
       top: 105%;
@@ -204,7 +213,21 @@
       margin-top: -8em;
     }
 
-    .cardWeb-bg {
+    .card-width {
+      width: 110vw;
+      height: 90vh;
+    }
+
+    .crd-width {
+      width: 120vw;
+      height: 30vh;
+    }
+
+    /* .crd-width {
+      width: 40vw;
+    } */
+
+    /* .cardWeb-bg {
       background-image: url(assets/home/desktop/image-web-design-small.jpg);
       background-size: cover;
       background-repeat: no-repeat;
@@ -219,7 +242,7 @@
       background-image: url(assets/home/desktop/image-graphic-design.jpg);
       background-size: cover;
       background-repeat: no-repeat;
-    }
+    } */
 
     .get_card {
       top: 116%;

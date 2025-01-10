@@ -1,11 +1,20 @@
 import phone from '@/assets/home/desktop/image-hero-phone.png';
 import ButtonLink from '@/components/ButtonLink';
-import Card from '@/components/Card';
 import { Link } from 'react-router-dom';
 import passionate from '@/assets/home/desktop/illustration-passionate.svg';
 import resourceful from '@/assets/home/desktop/illustration-resourceful.svg';
 import friendly from '@/assets/home/desktop/illustration-friendly.svg';
 import GetInTouch from '@/components/GetInTouch';
+import arrowIcon from '@/assets/shared/desktop/icon-right-arrow.svg';
+import imgWeb from '@/assets/home/desktop/image-web-design-small.jpg';
+import imgWebMobile from '@/assets/home/mobile/image-web-design.jpg';
+import imgWebTablet from '@/assets/home/tablet/image-web-design.jpg';
+import imgApp from '@/assets/home/desktop/image-app-design.jpg';
+import imgAppMobile from '@/assets/home/mobile/image-app-design.jpg';
+import imgAppTablet from '@/assets/home/tablet/image-app-design.jpg';
+import imgGraphic from '@/assets/home/desktop/image-graphic-design.jpg';
+import imgGraphicMobile from '@/assets/home/mobile/image-graphic-design.jpg';
+import imgGraphicTablet from '@/assets/home/tablet/image-graphic-design.jpg';
 
 const Home = () => {
   return (
@@ -31,28 +40,117 @@ const Home = () => {
           <img src={phone} alt="phone" className="phone-img md:mx-20" />
         </div>
       </section>
-      <section className=" lg:my-24 my-16 grid lg:grid-rows-3 lg:grid-flow-col gap-4">
-        <Link to="/webdesign">
-          <Card
-            title="Web Design"
-            description="View Projects"
-            className="cursor-pointer uppercase text-white cardWeb-bg px-2 py-20 rounded-xl lg:text-center"
-          />
-        </Link>
-        <Link to="/appdesign">
-          <Card
-            title=" App Design"
-            description="View Projects"
-            className="cursor-pointer uppercase text-white cardWeb-bg px-2 py-20 rounded-xl lg:text-center"
-          />
-        </Link>
-        <Link to="/graphicdesign">
-          <Card
-            title="Graphic Design"
-            description="View Projects"
-            className="cursor-pointer uppercase text-white cardWeb-bg px-2 py-20 rounded-xl lg:text-center"
-          />
-        </Link>
+      <section className="px-4 lg:p-0 lg:mx-32 md:px-0 grid lg:grid-rows-3 lg:grid-flow-col ">
+        {/* Web design */}
+        <div className="relative isolate flex flex-col justify-start overflow-hidden  max-w-sm  my-12 lg:my-0 cursor-pointer uppercase text-white  px-2 py-20 rounded-2xl lg:text-center md:mx-auto lg:row-span-3 card-width lg:mt-8">
+          <Link to="/webdesign">
+            <img
+              src={imgWeb}
+              alt=""
+              className="hidden lg:block absolute inset-0 h-full w-full object-cover "
+            />
+            <img
+              src={imgWebMobile}
+              alt=""
+              className="block lg:hidden md:hidden absolute inset-0 h-full w-full object-cover"
+            />
+            <img
+              src={imgWebTablet}
+              alt=""
+              className="hidden lg:hidden md:block absolute inset-0 h-full w-full object-cover"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-gray-900 via-gray-900/40 text-center mt-4">
+              <h3 className="z-10 mt-3 text-2xl font-semibold text-white lg:text-4xl lg:mt-60 md:mt-12">
+                Web Design
+              </h3>
+              <p className="z-10 mt-3 text-lg lg:text-xl text-white">
+                View Projects
+                <span className="inline-block">
+                  {' '}
+                  <img
+                    src={arrowIcon}
+                    alt="right-arrow"
+                    className="z-10 ml-4 overflow-hidden"
+                  />
+                </span>
+              </p>
+            </div>
+          </Link>
+        </div>
+
+        {/* App Design */}
+        <div className="relative isolate flex flex-col justify-start overflow-hidden  max-w-sm cursor-pointer uppercase text-white  px-2 py-20 rounded-2xl lg:text-center md:mx-auto lg:col-span-2  crd-width lg:mt-20 lg:ml-20">
+          <Link to="/webdesign">
+            <img
+              src={imgApp}
+              alt=""
+              className="hidden lg:block absolute inset-0 h-full w-full object-cover"
+            />
+            <img
+              src={imgAppMobile}
+              alt=""
+              className="block lg:hidden md:hidden absolute inset-0 h-full w-full object-cover"
+            />
+            <img
+              src={imgAppTablet}
+              alt=""
+              className="hidden lg:hidden md:block absolute inset-0 h-full w-full object-cover"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-gray-900 via-gray-900/40 text-center mt-4">
+              <h3 className="z-10 mt-3 text-2xl font-semibold text-white lg:text-4xl md:mt-12 lg:mt-12">
+                App Design
+              </h3>
+              <p className="z-10 mt-3 text-lg  text-white lg:text-xl">
+                View Projects
+                <span className="inline-block">
+                  {' '}
+                  <img
+                    src={arrowIcon}
+                    alt="right-arrow"
+                    className="z-10 ml-4 overflow-hidden"
+                  />
+                </span>
+              </p>
+            </div>
+          </Link>
+        </div>
+
+        {/* Graphic Design */}
+        <div className="relative isolate flex flex-col justify-start overflow-hidden my-12  max-w-sm cursor-pointer uppercase text-white  px-2 py-20 rounded-2xl lg:text-center md:mx-auto  lg:col-span-2   crd-width lg:mt-18 lg:ml-20">
+          <Link to="/webdesign">
+            <img
+              src={imgGraphic}
+              alt=""
+              className="hidden lg:block absolute inset-0 h-full w-full object-cover"
+            />
+            <img
+              src={imgGraphicMobile}
+              alt=""
+              className="block lg:hidden md:hidden absolute inset-0 h-full w-full object-cover"
+            />
+            <img
+              src={imgGraphicTablet}
+              alt=""
+              className="hidden lg:hidden md:block absolute inset-0 h-full w-full object-cover"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-gray-900 via-gray-900/40 text-center mt-4">
+              <h3 className="z-10 mt-3 text-2xl font-semibold text-white lg:text-4xl lg:mt-12 md:mt-12">
+                Graphic Design
+              </h3>
+              <p className="z-10 mt-3 text-lg lg:text-xl text-white">
+                View Projects
+                <span className="inline-block">
+                  {' '}
+                  <img
+                    src={arrowIcon}
+                    alt="right-arrow"
+                    className="z-10 ml-4 overflow-hidden"
+                  />
+                </span>
+              </p>
+            </div>
+          </Link>
+        </div>
       </section>
       <section className="relative ">
         <div className="flex flex-col lg:flex-row space-y-6 lg:space-x-8 px-4 md:px-8 lg:px-2">
