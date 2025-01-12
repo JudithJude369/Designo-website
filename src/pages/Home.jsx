@@ -152,7 +152,7 @@ const Home = () => {
           </Link>
         </div>
       </section>
-      <section className="relative ">
+      <section className="relative home-img ">
         <div className="flex flex-col lg:flex-row space-y-6 lg:space-x-8 px-4 md:px-8 lg:px-2">
           <div className="lg:self-center">
             <img

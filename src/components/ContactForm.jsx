@@ -26,13 +26,22 @@ const ContactForm = () => {
   const {
     register,
     handleSubmit,
+    reset,
     formState: { errors },
   } = useForm({
     resolver: yupResolver(validationSchema),
+
+    defaultValues: {
+      name: '',
+      email: '',
+      phone: '',
+      yourMessage: '',
+    },
   });
 
   const onSubmit = (data) => {
     console.log('Form data:', data);
+    reset();
   };
   return (
     <form

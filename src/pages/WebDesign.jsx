@@ -20,11 +20,15 @@ const WebDesign = () => {
         </div>
       </section>
 
-      <section className="grid grid-cols-1 gap-8 lg:grid-cols-3">
-        <div>
-          <img src={imgExpress} alt="" />
-          <h3>Express</h3>
-          <p>A multi-carrier shipping website for ecommerce businesses</p>
+      <section className="grid grid-cols-1 gap-8 lg:grid-cols-3 lg:my-24 my-16 ">
+        <div className="bg-white rounded-lg shadow-lg overflow-hidden max-w-lg w-full">
+          <img src={imgExpress} alt="" className="w-full h-64 object-cover" />
+          <div className="p-6">
+            <h3 className="text-2xl font-bold text-gray-800 mb-2">Express</h3>
+            <p className="text-gray-700 leading-tight mb-4">
+              A multi-carrier shipping website for ecommerce businesses
+            </p>
+          </div>
         </div>
         <div>
           <img src={imgTransfer} alt="" />

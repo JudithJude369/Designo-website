@@ -122,23 +122,6 @@
     margin-top: -2em;
   }
 
-  /* .cardWeb-bg {
-    background-image: url(assets/home/mobile/image-web-design.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
-
-  .cardapp-bg {
-    background-image: url(assets/home/mobile/image-app-design.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
-  .cardgraphic-bg {
-    background-image: url(assets/home/mobile/image-graphic-design.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-  } */
-
   .bg-circle {
     background-image: url(assets/shared/desktop/bg-pattern-small-circle.svg);
     background-size: cover;
@@ -154,6 +137,10 @@
 
   .width {
     width: 90vw;
+  }
+
+  .home-img {
+    margin-top: 2em;
   }
 
   @media (min-width: 768px) {
@@ -174,23 +161,6 @@
       width: 120vw;
       height: 30vh;
     }
-    /* .cardWeb-bg {
-      background-image: url(assets/home/tablet/image-web-design.jpg);
-      background-size: cover;
-      background-repeat: no-repeat;
-    }
-
-    .cardapp-bg {
-      background-image: url(assets/home/tablet/image-app-design.jpg);
-      background-size: cover;
-      background-repeat: no-repeat;
-    }
-
-    .cardgraphic-bg {
-      background-image: url(assets/home/tablet/image-graphic-design.jpg);
-      background-size: cover;
-      background-repeat: no-repeat;
-    } */
 
     .get_card {
       top: 105%;
@@ -223,27 +193,6 @@
       height: 30vh;
     }
 
-    /* .crd-width {
-      width: 40vw;
-    } */
-
-    /* .cardWeb-bg {
-      background-image: url(assets/home/desktop/image-web-design-small.jpg);
-      background-size: cover;
-      background-repeat: no-repeat;
-    }
-
-    .cardapp-bg {
-      background-image: url(assets/home/desktop/image-app-design.jpg);
-      background-size: cover;
-      background-repeat: no-repeat;
-    }
-    .cardgraphic-bg {
-      background-image: url(assets/home/desktop/image-graphic-design.jpg);
-      background-size: cover;
-      background-repeat: no-repeat;
-    } */
-
     .get_card {
       top: 116%;
     }
@@ -256,6 +205,10 @@
       background-image: url(assets/web-design/desktop/bg-pattern-intro-web.svg);
       background-position: center;
       background-repeat: no-repeat;
+    }
+
+    .home-img {
+      margin-top: -8em;
     }
   }
 }
