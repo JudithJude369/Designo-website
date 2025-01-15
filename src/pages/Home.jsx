@@ -80,7 +80,7 @@ const Home = () => {
 
         {/* App Design */}
         <div className="relative isolate flex flex-col justify-start overflow-hidden  max-w-sm cursor-pointer uppercase text-white  px-2 py-20 rounded-2xl lg:text-center md:mx-auto lg:col-span-2  crd-width lg:mt-20 lg:ml-20">
-          <Link to="/webdesign">
+          <Link to="/appdesign">
             <img
               src={imgApp}
               alt=""
@@ -117,7 +117,7 @@ const Home = () => {
 
         {/* Graphic Design */}
         <div className="relative isolate flex flex-col justify-start overflow-hidden my-12  max-w-sm cursor-pointer uppercase text-white  px-2 py-20 rounded-2xl lg:text-center md:mx-auto  lg:col-span-2   crd-width lg:mt-18 lg:ml-20">
-          <Link to="/webdesign">
+          <Link to="/graphicdesign">
             <img
               src={imgGraphic}
               alt=""
