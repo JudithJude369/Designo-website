@@ -9,16 +9,7 @@ Currently, two official plugins are available:
 
 - 
 # Designo-Website
-
-
-### The challenge
-
-# Screenshot
-screenshot of  solution.
-![Designo-website](https://github.com/user-attachments/assets/41ad4ddc-b16f-4745-9bb6-5a81e3742b0b)
-
-### Links
-[LIVE DEMO](https://designo-website-lilac.vercel.app/)
+This a 7 page website built with the following;
 
 ### Built with
 - Semantic HTML5 markup
@@ -30,3 +21,13 @@ screenshot of  solution.
 - React Router dom
 - Redux Toolkit
 - React Hook Form and Yup for validation
+
+### The challenge
+
+# Screenshot
+screenshot of  solution.
+![Designo-website](https://github.com/user-attachments/assets/41ad4ddc-b16f-4745-9bb6-5a81e3742b0b)
+
+### Links
+[LIVE DEMO](https://designo-website-lilac.vercel.app/)
+
