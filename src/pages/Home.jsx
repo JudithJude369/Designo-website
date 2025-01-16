@@ -24,17 +24,19 @@ const Home = () => {
           <h1 className="font-semibold lg:font-semibold text-3xl lg:text-4xl">
             Award-winning custom designs and digital branding solutions
           </h1>
-          <p className="mt-8 mb-10 md:mb-12">
+          <p className="mt-8 mb-10 md:mb-12 px-6 lg:px-0">
             With over 10 years in the industry, we are experienced in creating
             fully responsive websites, app design, and engaging brand
             experiences. Find out more about our services.
           </p>
-          <ButtonLink
-            className=" cursor-pointer font-medium px-7 py-4 text-black rounded-lg bg-white  hover:bg-red-200 focus:bg-red-200 hover:text-white hover:opacity-50 transition-all ease-in-out uppercase text-sm"
-            to="/about"
-          >
-            Learn more
-          </ButtonLink>
+          <div className="mt-8">
+            <ButtonLink
+              className=" cursor-pointer font-medium px-7 py-4 text-black rounded-lg bg-white  hover:bg-red-200 focus:bg-red-200 hover:text-white hover:opacity-50 transition-all ease-in-out uppercase text-sm "
+              to="/about"
+            >
+              Learn more
+            </ButtonLink>
+          </div>
         </div>
         <div>
           <img src={phone} alt="phone" className="phone-img md:mx-20" />

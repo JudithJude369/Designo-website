@@ -119,7 +119,7 @@
   }
 
   .phone-img {
-    margin-top: -2em;
+    margin-top: 0.01em;
   }
 
   .bg-circle {
@@ -144,10 +144,6 @@
   }
 
   @media (min-width: 768px) {
-    .phone-img {
-      margin-top: -5em;
-    }
-
     .locationTablet-img {
       width: 100%;
     }
